@@ -57,7 +57,7 @@ TEST(tf2_test_transform_broadcaster, transform_broadcaster_rclcpp_node)
   tf2_ros::TransformBroadcaster tfb(node);
 }
 
-TEST(tf2_test_transform_broadcaster, transform_broadcaster_rclcpp_node)
+TEST(tf2_test_transform_broadcaster, transform_broadcaster_rclcpp_node_shared)
 {
   auto node = rclcpp::Node::make_shared("tf2_ros_message_filter");
 
